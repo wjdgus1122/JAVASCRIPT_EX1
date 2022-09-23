@@ -1,0 +1,17 @@
+.btn-outline-success{
+    border: 1px solid white;
+    color: white;
+    --bs-btn-hover-bg: #FBF2CF;
+    --bs-btn-hover-color : gray;
+    --bs-btn-hover-border-color : #FBF2CF;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

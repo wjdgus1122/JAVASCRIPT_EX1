@@ -1,0 +1,76 @@
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conbox{
+    width: 1000px;
+    border: 1px solid #C6EBC5;
+}
+
+.con{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid #C6EBC5;
+}
+.title{
+    width: 150px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #C6EBC5;
+}
+.text{
+    width: 700px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #C6EBC5;
+}
+.date{
+    width: 100px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #C6EBC5;
+}
+.clicknum{
+    width: 50px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    height: 30px;
+}
+.first .title{
+    font-size: 15px;
+    font-weight: 900;
+}
+.first .text{
+    font-size: 15px;
+    font-weight: 900;
+}
+.first .date{
+    font-size: 15px;
+    font-weight: 900;
+}
+.first .clicknum{
+    font-size: 15px;
+    font-weight: 900;
+}
+.con:last-child{
+    border-bottom: none;
+}
