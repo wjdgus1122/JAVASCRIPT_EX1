@@ -34,6 +34,7 @@ section{
     justify-content: center;
     align-items: center;
     border-right: 1px solid #C6EBC5;
+    cursor: pointer;
 }
 .date{
     width: 100px;
